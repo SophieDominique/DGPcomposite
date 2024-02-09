@@ -92,7 +92,7 @@ generateCOMP <- function(N, B, blocks, w, phi, R2 = NULL, DGP = 2, d_err = 0.01)
   }
 
   #-------------------------------------------------------------------------------
-  return(list(S = S, data = X, B = coeff, Rlv = Rlv, tpsDiff = Tdiff))
+  return(list(S = S, data = X, B = coeff, Rlv = Rlv))
 }
 
 
