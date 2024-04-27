@@ -3,7 +3,7 @@
 # with options data generation
 #-------------------------------------------------------------------------------
 
-generateCOMP <- function(N, B, blocks, w, phi, R2 = NULL, DGP = 2, d_err = 0.01)
+generateCOMP <- function(N, B, blocks, w, phi, R2 = NULL, DGP = 2)
 {
   
   # paramètres
