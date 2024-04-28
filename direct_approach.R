@@ -2,7 +2,7 @@
 # DGP : direct approach with generated proxies
 #-------------------------------------------------------------------------------
 
-generatePLS <- function(N, B, blocks, w, phi = NULL, R2 = NULL, d_err = 0.05)
+generatePLS <- function(N, B, blocks, w, phi = NULL, R2 = NULL)
 {
   library(mvtnorm)
   
